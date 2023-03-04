@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Abdul Rehman">
+    <meta name="description" content="Create your account here">
+    <link rel="stylesheet" href="main.css">
+    <title>Sign UP</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav aria-label="signUp navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="index.html/recpies">Recpies</a></li>
+                <li><a href="#signUp">Sign up</a></li>
+                <li><a href="about.html#about">About us</a></li>
+            </ul>
+        </nav>
+        <img src="img/main.jpg" alt="vegitables" width="500" height="250">
+    </header>
+
+    <!-- Main -->
+    <main>
+        <hr>
+        <article id="signUp">
+            <h1>Sign UP</h1>
+            <p>Sign up here to become a registered member of recpies.com</p>
+
+            <form action="https://httpbin.org/post" method="post">
+                <p>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Tony" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Stark" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="username@gmail.com" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+    </main>
+
+    <br>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copywright&copy; by Recpies.com</p>
+    </footer>
+</body>
+
+</html>

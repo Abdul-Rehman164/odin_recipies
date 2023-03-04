@@ -1,0 +1,7 @@
+html{
+    font-size: 23px;
+}
+table, tr, th ,td, caption{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
